@@ -1,0 +1,54 @@
+{
+    "name": "chadhurin/laravel-masquerade",
+    "description": "Elevate your user management experience with the powerful Laravel Masquerade Package. Designed for seamless integration with Laravel applications, this package empowers administrators to temporarily switch and view the application through the eyes of another user. Whether you're debugging, testing user experiences, or verifying permissions, our Masquerade Package streamlines the process.",
+    "keywords": [
+        "chadhurin",
+        "laravel-masquerade"
+    ],
+    "homepage": "https://github.com/chadhurin/laravel-masquerade",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Chad Hurin",
+            "email": "chadhurin@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chadhurin\\LaravelMasquerade\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chadhurin\\LaravelMasquerade\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Chadhurin\\LaravelMasquerade\\LaravelMasqueradeServiceProvider"
+            ],
+            "aliases": {
+                "LaravelMasquerade": "Chadhurin\\LaravelMasquerade\\LaravelMasqueradeFacade"
+            }
+        }
+    }
+}
