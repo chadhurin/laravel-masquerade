@@ -1,8 +1,7 @@
 # Laravel Masquerade
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/chadhurin/laravel-masquerade.svg?style=flat-square)](https://packagist.org/packages/churin/laravel-masquerade)
-[![Total Downloads](https://img.shields.io/packagist/dt/chadhurin/laravel-masquerade.svg?style=flat-square)](https://packagist.org/packages/churin/laravel-masquerade)
-![GitHub Actions](https://github.com/chadhurin/laravel-masquerade/actions/workflows/main.yml/badge.svg)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/chadhurin/laravel-masquerade.svg?style=flat-square)](https://packagist.org/packages/chadhurin/laravel-masquerade)
+[![Total Downloads](https://img.shields.io/packagist/dt/chadhurin/laravel-masquerade.svg?style=flat-square)](https://packagist.org/packages/chadhurin/laravel-masquerade)
 
 Elevate your user management experience with the powerful Laravel Masquerade Package. Designed for seamless integration with Laravel applications, this package empowers administrators to temporarily switch and view the application through the eyes of another user. Whether you're debugging, testing user experiences, or verifying permissions, our Masquerade Package streamlines the process.
 
